@@ -2,7 +2,7 @@
 name: Auto Sign
 on:
   schedule:
-    - cron: '*/5 * * * *'   # UTC 16:30 = 北京时间 00:38
+    - cron: '*/1 * * * *'   # UTC 16:30 = 北京时间 00:38
   workflow_dispatch:
 jobs:
   build:
